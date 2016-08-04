@@ -1,4 +1,5 @@
 ---
+layout: event
 title:  "First meeting"
 meetingDate:   16. 7. 2016
 meetingPlace: Prague
