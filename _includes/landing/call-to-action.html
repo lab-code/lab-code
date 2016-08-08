@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Upcomming events</h2>
+                <h2 class="section-heading"><a href = "{{"/events/#upcoming" | prepend: site.baseurl }}" class = "link-unstyled">Upcomming events</a></h2>
                 <hr class="light">
                 <p class="text-faded">Closest upcomming event: </p>
                 {% assign events = site.events | where: "categories", "upcoming" %}

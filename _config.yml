@@ -4,6 +4,7 @@ email:  hejtmy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+about: Community to help non programming graduate students with their programming projects. Promoting clean, readible and shareable scientific code.
 
 # Build settings
 markdown: kramdown
@@ -16,19 +17,7 @@ social:
   - title: slack
     url: http:\\lab-code.slack.com\
 
-    # Members information. Shown on About page.
-members:
-  - name: Lukáš Hejtmánek
-    position: CEO of my life
-    text: Founder
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:hejtmy@gmail.com
-      - title: twitter
-        url: http:\\twitter.com\hejtmy_
-
 
 collections:
   events:
-    output: true
+      output: true
