@@ -9,14 +9,14 @@ categories:
 img: 2016/R-beginners.jpg
 calendar:
 tagged:
-client: NIMH, Czech Republic
 people: hejtmy
+calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=ODA3ZWxrYWpzaDM5YmtyY2JjcHVpYW84N28gbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&amp;tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
 ---
 This two to three hour course is aimed at those who have never programmed and never worked with R. We will get into basics of what is a variable and a function and how to do simple preprocessing and statistical analysis of movie data.
 
 What we will do
 -----------
-What we did
+We will learn basics of programming in R. What is a variable, function, package etc. How to look at prepared data and how to read in your own data to make interesting analyses and get rid of Excel once and for all.
 
 What to do in advance?
 -----------
