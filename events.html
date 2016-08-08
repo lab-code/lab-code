@@ -4,22 +4,29 @@ title: Events
 permalink: /events/
 ---
 <div class="container mtb">
-    <div class="row">
-        <! -- BLOG POSTS LIST -->
-        <div class="col-lg-8">
-          {% for post in site.categories['event'] %}
-            <! -- Blog Post -->
-            <a href="{{ post.url | prepend: site.baseurl }}">
-              <img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ post.img }}">
-            </a>
-            <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-            <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+  <div class="row">
+    <! -- BLOG POSTS LIST -->
+    <div class="col-lg-8">
+      {% assign groups = site.events | group_by: "categories" | sort: 'name' | reverse %}
+        {% for group in groups %}
+        {% assign group_name = group.name | remove_first:'["' | remove_first:'"]' %}
+        <a class="anchor" id="{{ group.name }}"></a><h2>{{ group_name | capitalize }}</h2>
+        <div class="hline"></div>
+        {% assign sorted_items = group.items | sort: "meetingDate" | reverse %}
+        {% for post in sorted_items %}
+          <! -- Blog Post -->
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ post.img }}">
+          </a>
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+          <p><csmall>{{ post.meetingDate | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
             {{ post.excerpt }}
-            <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-            <div class="hline"></div>
-            <div class="spacing"></div>
-          {% endfor %}
-        </div><! --/col-lg-8 -->
-        {% include blog/sidebar.html %}
-    </div><! --/row -->
+          <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+          <div class="hline"></div>
+          <div class="spacing"></div>
+        {% endfor %}
+        <div class="hline"></div>
+      {% endfor %}
+    </div><! --/col-lg-8 -->
+  </div><! --/row -->
 </div><! --/container -->

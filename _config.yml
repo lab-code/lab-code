@@ -27,3 +27,8 @@ members:
         url: mailto:hejtmy@gmail.com
       - title: twitter
         url: http:\\twitter.com\hejtmy_
+
+
+collections:
+  events:
+    output: true

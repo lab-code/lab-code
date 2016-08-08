@@ -1,7 +1,7 @@
 ---
 layout: event
 title:  "First meeting"
-meetingDate:   16. 7. 2016
+meetingDate:   2016-07-16
 meetingPlace: Prague
 author: Lukáš Hejtmánek
 categories:
@@ -12,8 +12,6 @@ calendar:
 client: NIMH, Czech Republic
 people: hejtmy
 ---
-First meeting
-========
 Meeting people at the Cafedu to clear up some ideas and expectations about the future of this group.
 
 Summary

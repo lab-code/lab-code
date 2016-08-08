@@ -1,20 +1,18 @@
 ---
 layout: event
 title:  "R startup"
-meetingDate:   16. 8. 2016
+meetingDate:  2016-08-16
 meetingPlace: NTK
 author: Lukáš Hejtmánek
 categories:
-- event
-- upcoming event
+- upcoming
 img: 2016/1.jpg
 calendar:
 tagged:
 client: NIMH, Czech Republic
 people: hejtmy
 ---
-Introduction to R
-========
+
 This two to three hour course is aimed at those who have never programmed and never worked with R. We will get into basics of what is a variable and a function and how to do simple preprocessing and statistical analysis of movie data.
 
 What we will do
