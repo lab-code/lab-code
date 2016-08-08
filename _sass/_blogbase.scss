@@ -25,7 +25,7 @@ body {
   background: #ffffff;
   margin: 0;
   height: 100%;
-  color:  $theme-secondary;
+  color: $theme-secondary;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
@@ -42,7 +42,7 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color:  $theme-secondary;
+  color: $theme-secondary;
   margin-top: 10px;
 }
 
@@ -113,24 +113,24 @@ a {
       font-weight: 700;
       font-size: 12px;
       &:hover {
-        color:  $theme-primary;
+        color: $theme-primary;
       }
     }
     .active > a {
-      color:  $theme-primary;
+      color: $theme-primary;
       background-color: transparent;
       &:hover, &:focus {
-        color:  $theme-primary;
+        color: $theme-primary;
         background-color: transparent;
       }
     }
   }
-  background-color:  $theme-secondary;
+  background-color: $theme-secondary;
   border-color: transparent;
 }
 
 .dropdown-menu {
-  background:  $theme-secondary;
+  background: $theme-secondary;
   > li > a {
     color: white;
     font-weight: 700;
@@ -140,20 +140,20 @@ a {
 
 .btn-theme {
   color: #fff;
-  background-color:  $theme-secondary;
-  border-color:  $theme-secondary;
+  background-color: $theme-secondary;
+  border-color: $theme-secondary;
   margin: 4px;
   &:hover, &:focus, &:active, &.active {
     color: #fff;
-    background-color:  $theme-primary;
-    border-color:  $theme-primary;
+    background-color: $theme-primary;
+    border-color: $theme-primary;
   }
 }
 
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color:  $theme-primary;
-  border-color:  $theme-primary;
+  background-color: $theme-primary;
+  border-color: $theme-primary;
 }
 
 .dmbutton {
@@ -201,7 +201,7 @@ a {
 }
 
 .hline {
-  border-bottom: 2px solid  $theme-secondary;
+  border-bottom: 2px solid $theme-secondary;
 }
 
 .hline-w {
@@ -214,7 +214,7 @@ a {
 ################################################################# */
 
 #headerwrap {
-  background-color:  $theme-primary;
+  background-color: $theme-primary;
   min-height: 0px;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -254,7 +254,7 @@ h5 {
   margin-top: 0px;
   margin-bottom: 0px;
   i {
-    color:  $theme-primary;
+    color: $theme-primary;
     font-size: 60px;
     padding: 15px;
   }
@@ -309,8 +309,8 @@ h5 {
   .bg {
     height: 100%;
     width: 100%;
-    background-color:  $theme-primary;
-    background-color: rgba($theme-primary_rgb, 0.9);
+    background-color: $theme-primary;
+    background-color: rgba($theme-primary, 0.9);
     text-align: center;
   }
 }
@@ -318,8 +318,8 @@ h5 {
 /* Testimonials Wrap */
 
 #twrapback {
-  background-color:  $theme-primary;
-  background-color: rgba($theme-primary_rgb, 0.8);
+  background-color: $theme-primary;
+  background-color: rgba($theme-primary, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -375,7 +375,7 @@ h5 {
 #footerwrap {
   padding-top: 60px;
   padding-bottom: 60px;
-  background:  $theme-secondary;
+  background: $theme-secondary;
   p {
     color: $theme-footer-content;
   }
@@ -423,7 +423,7 @@ h5 {
 }
 
 .ctitle {
-  color:  $theme-primary;
+  color: $theme-primary;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -439,7 +439,7 @@ csmall {
 }
 
 .badge-theme {
-  background:  $theme-primary;
+  background: $theme-primary;
 }
 
 /* Contact Page */
