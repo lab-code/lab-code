@@ -8,9 +8,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">LAB CODE</a>
+        <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">LAB CODE</a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -18,10 +17,10 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#events">Events</a>
+                  <a href="{{"/events/" | prepend: site.baseurl }}">Events</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                  <a href="{{"/blog/" | prepend: site.baseurl }}">Blog</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>

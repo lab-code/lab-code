@@ -67,6 +67,7 @@ aside {
     padding: 0;
 }
 
+// Homepage Header
 // Navigation
 
 .navbar-default {
@@ -146,8 +147,6 @@ aside {
         }
     }
 }
-
-// Homepage Header
 
 header {
     position: relative;
@@ -348,4 +347,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
