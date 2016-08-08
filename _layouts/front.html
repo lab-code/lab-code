@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-{% include head.html %}
-
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include call-to-action.html %}
-  {% include services.html %}
-  {% include portfolio.html %}
-  {% include aside.html %}
-  {% include contact.html %}
-  {% include scripts.html %}
-</body>
-
-</html>
+---
+layout: landing-default
+---
+{% include landing/header.html %}
+{% include landing/call-to-action.html %}
+{% include landing/services.html %}
+{% include landing/past-events.html %}
+{% include landing/contact.html %}

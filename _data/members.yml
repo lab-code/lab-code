@@ -1,0 +1,11 @@
+# Members information. Shown on About page.
+members:
+  - name: Lukáš Hejtmánek
+    position: CEO of my life
+    text: Founder
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:hejtmy@gmail.com
+      - title: twitter
+        url: http:\\twitter.com\hejtmy_

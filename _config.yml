@@ -1,12 +1,23 @@
 # Site settings
-title: Lab code site
+title: Lab code
 email:  hejtmy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-
-twitter_username: hejtmy_
-github_username: hejtmy
+about: Community to help non programming graduate students with their programming projects. Promoting clean, readible and shareable scientific code.
 
 # Build settings
 markdown: kramdown
+
+permalink: /:categories/:title
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: github
+    url: http:\\github.com\lab-code\
+  - title: slack
+    url: http:\\lab-code.slack.com\
+
+
+collections:
+  events:
+      output: true

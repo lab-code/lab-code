@@ -1,0 +1,21 @@
+---
+layout: blog-default
+---
+<div class="container mtb">
+  <div class="row">
+    <! -- SINGLE POST -->
+    <div class="col-lg-8 col-lg-offset-2">
+      <! -- Blog Post  -->
+      <p><img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ page.img }}"></p>
+      <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+      <p><csmall>{{ page.meetingDate | date: "%b %-d, %Y" }}. | By: {{ page.author }} | At: {{page.meetingPlace}}</csmall></p>
+        <p>
+          {% if page.calendar %}
+            <a href = "{{page.calendar}}"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_cs.gif"></a>
+          {% endif %}
+        </p>
+        {{ content }}
+      <div class="spacing"></div>
+    </div><! --/col-lg-12 -->
+  </div><! --/row -->
+</div><! --/container -->

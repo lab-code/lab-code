@@ -1,0 +1,19 @@
+<div class="col-lg-4">
+ <!--  <h4>Search</h4>
+  <div class="hline"></div>
+    <p>
+      <br/>
+      <input type="text" class="form-control" placeholder="Search something">
+    </p>
+  <div class="spacing"></div> -->
+  <h4>Categories</h4>
+  {% assign groups = site.events | group_by: "categories" | sort: 'name' | reverse %}
+  <div class="hline"></div>
+  {% for category in groups %}
+  {% assign group_name = category.name | remove_first:'["' | remove_first:'"]' %}
+    <p>
+      <a href="{{ '#'  | prepend: site.baseurl  }}{{ group_name }}"><i class="fa fa-angle-right"></i> {{ group_name | capitalize }}</a>
+      <span class="badge badge-theme pull-right">{{ category.size }}</span>
+    </p>
+  {% endfor %}
+</div>
