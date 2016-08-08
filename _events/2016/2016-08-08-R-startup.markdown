@@ -6,7 +6,7 @@ meetingPlace: NTK
 author: Lukáš Hejtmánek
 categories:
 - upcoming
-img: 2016/1.jpg
+img: 2016/R-beginners.jpg
 calendar:
 tagged:
 client: NIMH, Czech Republic
@@ -21,14 +21,24 @@ What we did
 What to do in advance?
 -----------
 Have your notebooks ready to do some R programming. That includes following steps
-1. Download R from: https://cran.r-project.org/src/base/R-3/
-2. Install R and open it. Check if everything is fine by running following commands to check:
-  1. 1 + 1
-  2. install.packgages('dplyr')
-  3. library(dplyr)
-  4. head(iris)
-  5. iris %>% filter(Species == "virginica") %>% select(Sepal.Width, Species)
-  6. iris %>% filter(Species == "virginica")  %>% summarise(mean = mean(Sepal.Width), sd = sd(Sepal.Width))
-3. If you have any trouble running above code, message somebody on slack in the #r-help channel
+
+1. Download R from <https://cran.r-project.org/src/base/R-3/>
+
+2.  Install R and open it. Check if everything is fine by running following commands to check:
+
+    ~~~ r
+    install.packgages('dplyr')
+
+    library(dplyr)
+
+    head(iris)
+
+    iris %>% filter(Species == "virginica") %>% select(Sepal.Width, Species)
+
+    iris %>% filter(Species == "virginica")  %>% summarise(mean = mean(Sepal.Width), sd = sd(Sepal.Width))
+    ~~~
+3. If you have any trouble running above code, message somebody on [slack](https://lab-code.slack.com) in the #r-help channel
+
 4. Download and install [RStudio](https://www.rstudio.com/products/rstudio/)
+
 5. Check above commands if they run in the studio as well.

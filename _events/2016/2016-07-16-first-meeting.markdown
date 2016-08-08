@@ -6,7 +6,7 @@ meetingPlace: Prague
 author: Lukáš Hejtmánek
 categories:
 - past
-img: 2016/1.jpg
+img: 2016/coffee-coding.jpg
 tagged:
 calendar:
 client: NIMH, Czech Republic

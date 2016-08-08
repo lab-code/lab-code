@@ -1,7 +1,7 @@
 <section class="no-padding" id="portfolio">
   <div class="container-fluid">
     <div class="row no-gutter">
-      {% for event in site.categories['past-event'] limit:6 %}
+      {% for event in site.events limit:6 %}
         <div class="col-lg-4 col-sm-6">
           <a href="{{ event.url | prepend: site.baseurl }}" class="portfolio-box">
             <img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ event.img }}">
