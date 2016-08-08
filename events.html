@@ -10,7 +10,7 @@ permalink: /events/
       {% assign groups = site.events | group_by: "categories" | sort: 'name' | reverse %}
         {% for group in groups %}
         {% assign group_name = group.name | remove_first:'["' | remove_first:'"]' %}
-        <a class="anchor" id="{{ group.name }}"></a><h2>{{ group_name | capitalize }}</h2>
+        <a class="anchor" id="{{ group_name }}"></a><h2>{{ group_name | capitalize }}</h2>
         <div class="hline"></div>
         {% assign sorted_items = group.items | sort: "meetingDate" | reverse %}
         {% for post in sorted_items %}
@@ -28,5 +28,6 @@ permalink: /events/
         <div class="hline"></div>
       {% endfor %}
     </div><! --/col-lg-8 -->
+    {% include blog/events-sidebar.html %}
   </div><! --/row -->
 </div><! --/container -->

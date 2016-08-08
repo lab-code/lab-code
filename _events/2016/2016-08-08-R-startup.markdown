@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "R startup"
+title:  "R for non programmers"
 meetingDate:  2016-08-16
 meetingPlace: NTK
 author: Lukáš Hejtmánek
@@ -12,7 +12,6 @@ tagged:
 client: NIMH, Czech Republic
 people: hejtmy
 ---
-
 This two to three hour course is aimed at those who have never programmed and never worked with R. We will get into basics of what is a variable and a function and how to do simple preprocessing and statistical analysis of movie data.
 
 What we will do
