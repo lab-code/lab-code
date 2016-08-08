@@ -22,6 +22,7 @@
 }
 
 body {
+  padding-top: 50px;
   background: #ffffff;
   margin: 0;
   height: 100%;
@@ -77,6 +78,14 @@ a {
   }
 }
 
+#head-wrapper {
+  background-color: $theme-secondary;
+  height: 60px;
+  margin-bottom: 25px;
+  h3 {
+    color: white;
+  }
+}
 ::-moz-selection, ::selection {
   color: #fff;
   text-shadow: none;
@@ -90,43 +99,101 @@ a {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
-
-.navbar {
-  min-height: 70px;
-  padding-top: 10px;
-  margin-bottom: 0px;
-}
-
-.navbar-brand {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-}
-
-.navbar-header .navbar-brand {
-  color: white;
-}
-
 .navbar-default {
-  .navbar-nav > {
-    li > a {
-      color: white;
-      font-weight: 700;
-      font-size: 12px;
-      &:hover {
+    background-color: white;
+    border-color: rgba($theme-dark, .5);
+    @include sans-serif-font;
+    @include transition-all;
+    .navbar-header .navbar-brand {
         color: $theme-primary;
-      }
+        @include sans-serif-font;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover,
+        &:focus {
+            color: darken($theme-primary, 10%);
+        }
     }
-    .active > a {
-      color: $theme-primary;
-      background-color: transparent;
-      &:hover, &:focus {
-        color: $theme-primary;
+    .nav {
+        > li {
+            > a,
+            > a:focus {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 13px;
+                color: $theme-dark;
+                &:hover {
+                    color: $theme-primary;
+                }
+            }
+            &.active {
+                > a,
+                > a:focus {
+                    color: $theme-primary !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
         background-color: transparent;
-      }
+        border-color: rgba(white, .3);
+        .navbar-header .navbar-brand {
+          color: rgba(white, .7);
+          &:hover,
+          &:focus {
+            color: white;
+          }
+        }
+        .nav > li > a,
+        .nav > li > a:focus {
+          color: rgba(white, .7);
+          &:hover {
+            color: white;
+          }
+        }
+        &.affix {
+          background-color: white;
+          border-color: rgba($theme-dark, .5);
+          .navbar-header .navbar-brand {
+            color: $theme-primary;
+            font-size: 14px;
+            &:hover,
+            &:focus {
+              color: darken($theme-primary, 10%);
+            }
+          }
+          .nav > li > a,
+          .nav > li > a:focus {
+            color: $theme-dark;
+            &:hover {
+              color: $theme-primary;
+            }
+          }
+        }
+        &.affix-top {
+          background-color: white;
+          border-color: rgba($theme-dark, .5);
+          .navbar-header .navbar-brand {
+            color: $theme-primary;
+            font-size: 14px;
+            &:hover,
+            &:focus {
+              color: darken($theme-primary, 10%);
+            }
+          }
+          .nav > li > a,
+          .nav > li > a:focus {
+            color: $theme-dark;
+            &:hover {
+              color: $theme-primary;
+            }
+          }
+        }
     }
-  }
-  background-color: $theme-secondary;
-  border-color: transparent;
 }
 
 .dropdown-menu {
@@ -188,8 +255,8 @@ a {
 }
 
 .mtb {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .mb {
