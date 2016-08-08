@@ -1,12 +1,14 @@
 ---
+layout: event
 title:  "R startup"
 meetingDate:   16. 8. 2016
 meetingPlace: NTK
 author: Lukáš Hejtmánek
 categories:
 - event
-- future-event
+- upcoming event
 img: 2016/1.jpg
+calendar:
 tagged:
 client: NIMH, Czech Republic
 people: hejtmy
@@ -14,15 +16,12 @@ people: hejtmy
 R startup
 ========
 
-
-What to prepare for
+What we will do
 -----------
 What we did
 
-
 What to do in advance?
 -----------
-
 Have your notebooks ready to do some R programming. That includes following steps
 1. Download R from: https://cran.r-project.org/src/base/R-3/
 2. Install R and open it. Check if everything is fine by running following commands to check:
