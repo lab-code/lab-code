@@ -1,0 +1,33 @@
+#quote p{
+  font-style: italic;
+  font-size: 30px;
+}
+.popular-posts li{
+  margin-bottom: 50px;
+}
+.popular-posts li img{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+	color: @red;
+	border: none;
+}
+.carousel-control.left {margin-left: -45px; color: black;}
+.carousel-control.right {margin-right: -55px; color: black;}
+
+#section-header {
+	background: white;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#section-header h3 {
+	color: black;
+	margin-left: 15px;
+}
