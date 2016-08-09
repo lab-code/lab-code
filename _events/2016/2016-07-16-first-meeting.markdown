@@ -4,8 +4,7 @@ title:  "First meeting"
 meetingDate:   2016-07-16
 meetingPlace: Prague
 author: Lukáš Hejtmánek
-categories:
-- past
+category: past
 img: 2016/coffee-coding.jpg
 tagged:
 calendar:

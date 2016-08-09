@@ -7,7 +7,7 @@
     </p>
   <div class="spacing"></div> -->
   <h4>Categories</h4>
-  {% assign groups = site.events | group_by: "categories" | sort: 'name' | reverse %}
+  {% assign groups = site.events | group_by: "category" %}
   <div class="hline"></div>
   {% for category in groups %}
   {% assign group_name = category.name | remove_first:'["' | remove_first:'"]' %}

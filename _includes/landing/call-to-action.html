@@ -5,7 +5,7 @@
         <h2 class="section-heading"><a href = "{{"/events/#upcoming" | prepend: site.baseurl }}" class = "link-unstyled">Upcomming events</a></h2>
         <hr class="light">
         <p class="text-faded">Closest upcomming event: </p>
-        {% assign events = site.events | where: "categories", "upcoming" %}
+        {% assign events = site.events | where: "category", "upcoming" %}
         {% if events %}
           {% assign sorted_events = events | sort: "meetingDate" %}
         {% endif %}

@@ -1,6 +1,0 @@
-{
-  "name": "test_deploy",
-  "dependencies": {
-    "jquery": "~2.2.3"
-  }
-}
