@@ -1,11 +1,10 @@
-# Members information. Shown on About page.
-members:
-  - name: Lukáš Hejtmánek
-    position: CEO of my life
-    text: Founder
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:hejtmy@gmail.com
-      - title: twitter
-        url: http:\\twitter.com\hejtmy_
+#title is a fa-fa- image name from http://fontawesome.io/icons/
+- name: Lukáš Hejtmánek
+  focus: Neurosciences
+  code: R, Matlab, Python, Arduino, Git, Github
+  img: team01.jpg
+  social:
+    - title: envelope #use for email address
+      url: mailto:hejtmy@gmail.com
+    - title: github
+      url: http:\\github.com\hejtmy
