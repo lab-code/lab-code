@@ -28,7 +28,7 @@ Have your notebooks ready to do some R programming. That includes following step
 2.  Install R and open it. Check if everything is fine by running following commands (just copy paste it one by one to the command line) to check:
 
     ~~~ r
-    install.packgages('dplyr') #installs package
+    install.packages('dplyr') #installs package
 
     library(dplyr) #loads the package
 
