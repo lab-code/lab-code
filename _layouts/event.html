@@ -11,7 +11,10 @@ layout: blog-default
       <p><csmall>{{ page.meetingDate | date: "%b %-d, %Y" }}. | By: {{ page.author }} | At: {{page.meetingPlace}}</csmall></p>
         <p>
           {% if page.calendar %}
-            <a href = "{{page.calendar}}"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_cs.gif"></a>
+            <a class="btn btn-default btn-sm" href="{{page.calendar}}"><i class="fa fa-calendar"></i>Calendar</a></a>
+          {% endif %}
+          {% if page.github %}
+            <a class="btn btn-default btn-sm" href="{{page.github}}"><i class="fa fa-github"></i>Github</a></a>
           {% endif %}
         </p>
         {{ content }}

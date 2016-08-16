@@ -9,6 +9,10 @@ about: Community to help non programming graduate students with their programmin
 # Build settings
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 permalink: /:categories/:title
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
@@ -16,7 +20,6 @@ social:
     url: http:\\github.com\lab-code\
   - title: slack
     url: http:\\lab-code.slack.com\
-
 
 collections:
   events:
