@@ -4,7 +4,7 @@ title:  "R for non programmers III. - preprocessing data"
 meetingDate:  2016-09-06
 meetingPlace: NTK
 author: Lukáš Hejtmánek
-category: upcomming
+category: upcoming
 img: 2016/R-beginners.jpg
 calendar:
 tagged: R
