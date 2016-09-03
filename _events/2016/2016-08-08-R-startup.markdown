@@ -1,26 +1,24 @@
 ---
 layout: event
-title:  "R for non programmers"
+title:  "R for non programmers I."
 meetingDate:  2016-08-16
 meetingPlace: NTK
 author: Lukáš Hejtmánek
-categories:
-- upcoming
+category: past
 img: 2016/R-beginners.jpg
 calendar:
 tagged:
 people: hejtmy
 calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=ODA3ZWxrYWpzaDM5YmtyY2JjcHVpYW84N28gbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&amp;tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
+github: https://github.com/lab-code/R-for-non-programmers
 ---
-This two to three hour course is aimed at those who have never programmed and never worked with R. We will get into basics of what is a variable and a function and how to do simple preprocessing and statistical analysis of movie data.
+This two to three hour course is aimed at those who have never programmed and never worked with R. We will get into basics of what is a variable and a function and do simple vector math, sequencing, randomisation etc.
 
-What we will do
------------
-We will learn basics of programming in R. What is a variable, function, package etc. How to look at prepared data and how to read in your own data to make interesting analyses and get rid of Excel once and for all.
+## What we will do
 
-You will need your own PC with wi-fi module and eduroam access or other internet accesse that NTK is providing. R works on Linux, Windows and Mac OS, possibly with some quirks that we will have to deal with as we go.
+We will learn basics of programming in R. What is a variable and what types of variables we have etc. The major part is going to be how to work with vectors, how to do comparisons and bunch of other stuff. This is mainly preparatory session for the data.frames lesson that follows.
 
-What to do in advance?
+## What to do in advance?
 -----------
 Have your notebooks ready to do some R programming. That includes following steps:
 
@@ -28,8 +26,8 @@ Have your notebooks ready to do some R programming. That includes following step
 
 2.  Install R and open it. Check if everything is fine by running following commands (just copy paste it one by one to the command line) to check:
 
-    ~~~ r
-    install.packgages('dplyr') #installs package
+    ``` r
+    install.packages('dplyr') #installs package
 
     library(dplyr) #loads the package
 
@@ -38,7 +36,7 @@ Have your notebooks ready to do some R programming. That includes following step
     iris %>% filter(Species == "virginica") %>% select(Sepal.Width, Species) #filters dataset
 
     iris %>% filter(Species == "virginica")  %>% summarise(mean = mean(Sepal.Width), sd = sd(Sepal.Width)) #calculates summary stats on the filtered dataset
-    ~~~
+    ```
 3. If you have any trouble running above code, message somebody on [slack](https://lab-code.slack.com) in the #r-help channel
 
 4. Download and install [RStudio](https://www.rstudio.com/products/rstudio/)
@@ -46,3 +44,7 @@ Have your notebooks ready to do some R programming. That includes following step
 5. Check if the above commands run in the RStudio as well.
 
 6. Wait :)
+
+## Important
+
+You will need your own PC with wi-fi module and eduroam access or other internet access that NTK provides. I can't stress that enough. there is no free Wi-fi in NTK. You either have to have an NTK account or need access to eduroam. If you are PhD sutdents, you should have euroam account provided by your university.

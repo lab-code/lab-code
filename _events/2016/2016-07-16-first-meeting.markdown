@@ -4,8 +4,7 @@ title:  "First meeting"
 meetingDate:   2016-07-16
 meetingPlace: Prague
 author: Lukáš Hejtmánek
-categories:
-- past
+category: past
 img: 2016/coffee-coding.jpg
 tagged:
 calendar:
@@ -14,8 +13,7 @@ people: hejtmy
 ---
 Meeting people at the Cafedu to clear up some ideas and expectations about the future direction of our community.
 
-Summary
------------
+## Summary
 People would like to know programming to keep up with current science, to be able to do reproducible research and getting rid of excel.
 
 There are two major groups of focus:

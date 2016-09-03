@@ -5,13 +5,15 @@
         <h2 class="section-heading"><a href = "{{"/events/#upcoming" | prepend: site.baseurl }}" class = "link-unstyled">Upcomming events</a></h2>
         <hr class="light">
         <p class="text-faded">Closest upcomming event: </p>
-        {% assign events = site.events | where: "categories", "upcoming" %}
-        {% if events %}{% assign sorted_events = events | sort: "meetingDate" %}{% endif %}
+        {% assign events = site.events | where: "category", "upcoming" %}
+        {% if events %}
+          {% assign sorted_events = events | sort: "meetingDate" %}
+        {% endif %}
         {% if sorted_events %}
           {% for event in sorted_events limit: 1 %}
             <p>
               <h3>{{ event.title }}</h3>
-              {{ event.meetingDate | date: "%b %-d, %Y" }} at {{ event.meetingPlace}}
+              {{ event.meetingDate | date: "%b %-d, %Y" }} at {{ event.meetingPlace }}
             </p>
             <a href="{{event.url}}" class="btn btn-default btn-xl">Get to it</a>
           {% endfor %}

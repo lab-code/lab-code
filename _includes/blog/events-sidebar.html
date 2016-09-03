@@ -7,13 +7,13 @@
     </p>
   <div class="spacing"></div> -->
   <h4>Categories</h4>
-  {% assign groups = site.events | group_by: "categories" | sort: 'name' | reverse %}
+  {% assign groups = site.events | group_by: "category" %}
   <div class="hline"></div>
-  {% for category in groups %}
-  {% assign group_name = category.name | remove_first:'["' | remove_first:'"]' %}
+  {% for group in groups %}
+  {% assign group_name = group.name | remove_first:'["' | remove_first:'"]' %}
     <p>
       <a href="{{ '#'  | prepend: site.baseurl  }}{{ group_name }}"><i class="fa fa-angle-right"></i> {{ group_name | capitalize }}</a>
-      <span class="badge badge-theme pull-right">{{ category.size }}</span>
+      <span class="badge badge-theme pull-right">{{ group.size }}</span>
     </p>
   {% endfor %}
 </div>
