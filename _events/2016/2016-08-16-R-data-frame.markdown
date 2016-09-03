@@ -5,7 +5,7 @@ meetingDate:  2016-08-24
 meetingPlace: NTK
 author: Lukáš Hejtmánek
 category: past
-img: 2016/R-beginners.jpg
+img: 2016/R-matrix.jpg
 calendar:
 tagged: R
 people: hejtmy
