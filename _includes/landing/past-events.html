@@ -1,7 +1,12 @@
 <section class="no-padding" id="portfolio">
   <div class="container-fluid">
     <div class="row no-gutter">
-      {% for event in site.events limit:6 %}
+      {% assign events = site.events %}
+      {% if events %}
+        {% assign sorted_events = events | sort: "meetingDate" %}
+      {% endif %}
+      {% if sorted_events %}
+        {% for event in sorted_events reversed limit: 6 %}
         <div class="col-lg-4 col-sm-6">
           <a href="{{ event.url | prepend: site.baseurl }}" class="portfolio-box">
             <img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ event.img }}">
@@ -17,7 +22,8 @@
             </div>
           </a>
         </div>
-      {% endfor %}
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
 </section>
