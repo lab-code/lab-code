@@ -5,7 +5,7 @@ meetingDate:  2016-09-06
 meetingPlace: NTK
 author: Lukáš Hejtmánek
 category: upcoming
-img: 2016/R-beginners.jpg
+img: 2016/R-preprocessing.jpg
 calendar:
 tagged: R
 people: hejtmy
