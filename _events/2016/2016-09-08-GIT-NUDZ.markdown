@@ -3,14 +3,14 @@ layout: event
 title:  "GIT seminar - NUDZ"
 meetingDate:  2016-09-27
 meetingPlace: NUDZ
-author: Lukáš Hejtmánek
+instructor: Michal Hocko
 category: upcoming
 img: 2016/git-branching.jpg
 calendar:
 tagged: git
 people:
-calendar:
-github: 
+calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y3B0N3E2MDQxZjMyYm9kbnN0OTh2NmY3M2sgbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
+github:
 iteration: 1
 ---
 This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas. It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
