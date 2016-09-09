@@ -11,6 +11,7 @@ tagged: git
 people:
 calendar:
 github:
+iteration: 1
 ---
 This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas. It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
 

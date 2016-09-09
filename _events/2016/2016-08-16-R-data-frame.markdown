@@ -11,6 +11,7 @@ tagged: R
 people: hejtmy
 calendar:
 github: https://github.com/lab-code/R-for-non-programmers
+iteration: 1
 ---
 This follow-up is focused on working with data.frames and doing simple statistics, subsetting, plotting and more.
 

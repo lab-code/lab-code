@@ -11,6 +11,7 @@ tagged: R
 people: hejtmy
 calendar:
 github: https://github.com/lab-code/R-for-non-programmers
+iteration: 1
 ---
 This session is focused on working with data.frames and going from the start to finish. It is aimed at those comfortable with material from R for non programmers II.-data.frames. Basic loading, subsetting and working with graphs and tests is expected.
 
