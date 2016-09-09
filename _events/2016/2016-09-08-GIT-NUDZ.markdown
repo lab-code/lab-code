@@ -1,0 +1,45 @@
+---
+layout: event
+title:  "GIT NUDZ seminar"
+meetingDate:  2016-09-27
+meetingPlace: NUDZ
+author: Lukáš Hejtmánek
+category: upcoming
+img: 2016/git-branching.jpg
+calendar:
+tagged: git
+people:
+calendar:
+github:
+---
+This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas. It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
+
+## What we will do
+
+
+## What to do in advance?
+-----------
+
+1. Download git from https://git-scm.com/ or using Linux command line.
+
+2. Check if it's working by opening the git command line and running following commands
+
+``` git
+cd #path - use cd command to get to the path you want to start the repository at
+mkdir git-test
+cd git-test
+git init
+touch file.txt
+git status
+git add --all
+git commit -m "Initial commit"
+git log
+```
+
+## Important
+
+Although You don't need any repository account to run git, You will eventually want to "save" your progress online and share it with people. You will need an account for that. Possibilities include:
+
+- https://github.com/
+- https://bitbucket.com/
+- https://gitlab.com/
