@@ -1,10 +1,10 @@
 ---
 layout: event
 title:  "R for non programmers I."
-meetingDate:  2016-08-16
+meetingDate:  2016-09-22
 meetingPlace: NTK
 author: Lukáš Hejtmánek
-category: past
+category: upcoming
 img: 2016/R-beginners.jpg
 calendar:
 tagged:
