@@ -3,7 +3,7 @@ layout: event
 title:  "R for non programmers II. - data.frames"
 meetingDate:  2016-08-24
 meetingPlace: NTK
-author: Lukáš Hejtmánek
+instructor: Lukáš Hejtmánek
 category: past
 img: 2016/R-matrix.jpg
 calendar:

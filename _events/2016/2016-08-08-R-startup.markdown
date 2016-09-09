@@ -3,13 +3,13 @@ layout: event
 title:  "R for non programmers I."
 meetingDate:  2016-09-22
 meetingPlace: NTK
-author: Lukáš Hejtmánek
+instructor: Lukáš Hejtmánek
 category: upcoming
 img: 2016/R-beginners.jpg
 calendar:
 tagged:
 people: hejtmy
-calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=ODA3ZWxrYWpzaDM5YmtyY2JjcHVpYW84N28gbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&amp;tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
+calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=dmk3bGY4aWF2MHZudGhqMzZzOHNyNTdsNzggbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
 github: https://github.com/lab-code/R-for-non-programmers
 iteration: 2
 ---
