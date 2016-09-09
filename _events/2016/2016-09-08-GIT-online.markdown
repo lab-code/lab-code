@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "GIT basics online"
+title:  "GIT fundamentals - online"
 meetingDate:  2016-09-27
 meetingPlace: online
 author: Lukáš Hejtmánek

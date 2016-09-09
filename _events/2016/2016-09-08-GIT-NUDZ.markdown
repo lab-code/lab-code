@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "GIT NUDZ seminar"
+title:  "GIT seminar - NUDZ"
 meetingDate:  2016-09-27
 meetingPlace: NUDZ
 author: Lukáš Hejtmánek
@@ -10,7 +10,7 @@ calendar:
 tagged: git
 people:
 calendar:
-github:
+github: 
 iteration: 1
 ---
 This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas. It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
@@ -41,6 +41,8 @@ git log
 
 Although You don't need any repository account to run git, You will eventually want to "save" your progress online and share it with people. You will need an account for that. Possibilities include:
 
-- https://github.com/
-- https://bitbucket.com/
-- https://gitlab.com/
+- [GitHub](https://github.com/)
+- [BitBucket](https://bitbucket.com/)
+- [GitLab](https://gitlab.com/)
+
+Alternatively you can run your own git server somewhere on Azure, AWS or Google cloud, but I'd strongly recommend you to start with one of the above solutions. They are free and quite popular.
