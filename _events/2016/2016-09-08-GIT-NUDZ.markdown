@@ -1,0 +1,48 @@
+---
+layout: event
+title:  "GIT seminar - NUDZ"
+meetingDate:  2016-09-27
+meetingPlace: NUDZ
+instructor: Michal Hocko
+category: upcoming
+img: 2016/git.png
+calendar:
+tagged: git
+people:
+calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y3B0N3E2MDQxZjMyYm9kbnN0OTh2NmY3M2sgbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
+github:
+iteration: 1
+---
+This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas. It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
+
+## What we will do
+
+
+## What to do in advance?
+-----------
+
+1. Download git from https://git-scm.com/ or using Linux command line.
+
+2. Check if it's working by opening the git command line and running following commands
+
+``` git
+cd #path - use cd command to get to the path you want to start the repository at
+mkdir git-test
+cd git-test
+git init
+touch file.txt
+git status
+git add --all
+git commit -m "Initial commit"
+git log
+```
+
+## Important
+
+Although You don't need any repository account to run git, You will eventually want to "save" your progress online and share it with people. You will need an account for that. Possibilities include:
+
+- [GitHub](https://github.com/)
+- [BitBucket](https://bitbucket.com/)
+- [GitLab](https://gitlab.com/)
+
+Alternatively you can run your own git server somewhere on Azure, AWS or Google cloud, but I'd strongly recommend you to start with one of the above solutions. They are free and quite popular.

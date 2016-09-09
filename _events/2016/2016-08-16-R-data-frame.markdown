@@ -3,7 +3,7 @@ layout: event
 title:  "R for non programmers II. - data.frames"
 meetingDate:  2016-08-24
 meetingPlace: NTK
-author: Lukáš Hejtmánek
+instructor: Lukáš Hejtmánek
 category: past
 img: 2016/R-matrix.jpg
 calendar:
@@ -11,6 +11,7 @@ tagged: R
 people: hejtmy
 calendar:
 github: https://github.com/lab-code/R-for-non-programmers
+iteration: 1
 ---
 This follow-up is focused on working with data.frames and doing simple statistics, subsetting, plotting and more.
 

@@ -8,13 +8,16 @@ layout: blog-default
       <! -- Blog Post  -->
       <p><img class="img-responsive" src="{{ "/assets/img/events/" | prepend: site.baseurl }}{{ page.img }}"></p>
       <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-      <p><csmall>{{ page.meetingDate | date: "%b %-d, %Y" }}. | By: {{ page.author }} | At: {{page.meetingPlace}}</csmall></p>
+      <p><csmall>{{ page.meetingDate | date: "%b %-d, %Y" }}. | Instructor: {{ page.instructor }} | At: {{page.meetingPlace}}</csmall></p>
         <p>
           {% if page.calendar %}
             <a class="btn btn-default btn-sm" href="{{page.calendar}}"><i class="fa fa-calendar"></i>Calendar</a></a>
           {% endif %}
           {% if page.github %}
             <a class="btn btn-default btn-sm" href="{{page.github}}"><i class="fa fa-github"></i>Github</a></a>
+          {% endif %}
+          {% if page.teacher %}
+              {{page.teacher}}
           {% endif %}
         </p>
         {{ content }}
