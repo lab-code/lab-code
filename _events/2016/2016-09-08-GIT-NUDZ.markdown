@@ -16,7 +16,11 @@ iteration: 1
 This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas. It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
 
 ## What we will do
+1. Basics - staging, commiting, pushing, pulling, branching
+2. Saving our butts - reset, remove, checkout, rewinding history
+3. Merging and collaborating- merging locally, fetch + merge, merge conflicts, rebasing
 
+Besides these skills, we should talk about conventions, how often commits shoudl happen, what are good practices etc.
 
 ## What to do in advance?
 -----------
