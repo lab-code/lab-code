@@ -24,6 +24,7 @@ Besides these skills, we should talk about conventions, how often commits shoudl
 
 ## What to do in advance?
 -----------
+Firstly, you will need your own laptop to run things we will do. So bring those and have them ready by following steps bellow:
 
 1. Download git from https://git-scm.com/ or using Linux command line.
 
