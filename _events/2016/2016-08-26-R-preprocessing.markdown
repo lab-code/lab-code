@@ -6,7 +6,6 @@ meetingPlace: NTK
 instructor: Lukáš Hejtmánek
 category: past
 img: 2016/R-preprocessing.jpg
-calendar:
 tagged: R
 people: hejtmy
 calendar:
