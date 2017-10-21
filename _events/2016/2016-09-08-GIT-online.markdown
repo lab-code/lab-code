@@ -4,7 +4,7 @@ title:  "GIT fundamentals - online"
 meetingDate:  2016-09-27
 meetingPlace: online
 author: Lukáš Hejtmánek
-category: upcoming
+category: past
 img: 2016/git-branching.jpg
 calendar:
 tagged: git

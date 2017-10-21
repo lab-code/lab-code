@@ -4,11 +4,10 @@ title:  "GIT seminar - NUDZ"
 meetingDate:  2016-09-27
 meetingPlace: NUDZ
 instructor: Michal Hocko
-category: upcoming
+category: past
 img: 2016/git.png
 calendar:
 tagged: git
-people:
 calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y3B0N3E2MDQxZjMyYm9kbnN0OTh2NmY3M2sgbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
 github:
 iteration: 1
