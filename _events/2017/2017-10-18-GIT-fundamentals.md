@@ -7,7 +7,7 @@ instructor: Lukas Hejtmanek
 category: upcoming
 img: 2017/git-fundamentals-davis.jpg    
 tagged: git
-calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFmZjVhYjF1djZ1dmIzNXZjaHY5amhjdmUgbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.coms
+calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFmZjVhYjF1djZ1dmIzNXZjaHY5amhjdmUgbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.com
 iteration: 1
 ---
 This seminar will teach you basics of GIT hands on. Git is a distributed version control system which is widely used in all software development areas (e.g. Linux is sourced in GIT). It allows you to track changes, save and load code in certain positions, safely test new ideas etc.
