@@ -5,7 +5,7 @@ meetingDate:  2017-10-24
 meetingPlace: Davis, Downtown
 instructor: Lukas Hejtmanek
 category: upcoming
-img: 2017/git-fundamentals-davis.jpg
+img: 2017/git-fundamentals-davis.jpg    
 tagged: git
 calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFmZjVhYjF1djZ1dmIzNXZjaHY5amhjdmUgbzQwNXU4anZsNTA0MGhvNXB1cWQ1MWMzOGtAZw&tmsrc=o405u8jvl5040ho5puqd51c38k%40group.calendar.google.coms
 iteration: 1
